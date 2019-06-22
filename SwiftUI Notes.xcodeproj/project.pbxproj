@@ -7,25 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E77A3EC22BEB52500103E60 /* FatalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77A3EB22BEB52500103E60 /* FatalError.swift */; };
+		2E77A3F022BEB86D00103E60 /* NoteExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77A3EF22BEB86D00103E60 /* NoteExtensions.swift */; };
+		2E77A3F222BEBB9300103E60 /* FetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77A3F122BEBB9300103E60 /* FetchedResultsController.swift */; };
+		2E77A3F422BEBE8900103E60 /* FetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E77A3F322BEBE8900103E60 /* FetchRequest.swift */; };
+		2E77A3F822BED14600103E60 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E77A3F722BED14600103E60 /* CloudKit.framework */; };
 		2E9A068422BEA1E0001FF65A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A068322BEA1E0001FF65A /* AppDelegate.swift */; };
 		2E9A068622BEA1E0001FF65A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A068522BEA1E0001FF65A /* SceneDelegate.swift */; };
 		2E9A068922BEA1E0001FF65A /* SwiftUI_Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A068722BEA1E0001FF65A /* SwiftUI_Notes.xcdatamodeld */; };
-		2E9A068B22BEA1E0001FF65A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A068A22BEA1E0001FF65A /* ContentView.swift */; };
+		2E9A068B22BEA1E0001FF65A /* NoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A068A22BEA1E0001FF65A /* NoteList.swift */; };
 		2E9A068D22BEA1E2001FF65A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A068C22BEA1E2001FF65A /* Assets.xcassets */; };
 		2E9A069022BEA1E2001FF65A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A068F22BEA1E2001FF65A /* Preview Assets.xcassets */; };
 		2E9A069322BEA1E2001FF65A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A069122BEA1E2001FF65A /* LaunchScreen.storyboard */; };
+		2EF072EB22BEDA7500C13DDD /* ComposeNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF072EA22BEDA7500C13DDD /* ComposeNoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E77A3EB22BEB52500103E60 /* FatalError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatalError.swift; sourceTree = "<group>"; };
+		2E77A3EF22BEB86D00103E60 /* NoteExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteExtensions.swift; sourceTree = "<group>"; };
+		2E77A3F122BEBB9300103E60 /* FetchedResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedResultsController.swift; sourceTree = "<group>"; };
+		2E77A3F322BEBE8900103E60 /* FetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest.swift; sourceTree = "<group>"; };
+		2E77A3F522BED0EB00103E60 /* SwiftUI Notes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI Notes.entitlements"; sourceTree = "<group>"; };
+		2E77A3F722BED14600103E60 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		2E9A068022BEA1E0001FF65A /* SwiftUI Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9A068322BEA1E0001FF65A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E9A068522BEA1E0001FF65A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2E9A068822BEA1E0001FF65A /* SwiftUI_Notes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUI_Notes.xcdatamodel; sourceTree = "<group>"; };
-		2E9A068A22BEA1E0001FF65A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E9A068A22BEA1E0001FF65A /* NoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteList.swift; sourceTree = "<group>"; };
 		2E9A068C22BEA1E2001FF65A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E9A068F22BEA1E2001FF65A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E9A069222BEA1E2001FF65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E9A069422BEA1E2001FF65A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF072EA22BEDA7500C13DDD /* ComposeNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeNoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E77A3F822BED14600103E60 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E77A3EA22BEB51300103E60 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E77A3ED22BEB85A00103E60 /* Core Data */,
+				2E77A3EE22BEB85E00103E60 /* Standard Library */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2E77A3ED22BEB85A00103E60 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				2E77A3EF22BEB86D00103E60 /* NoteExtensions.swift */,
+				2E77A3F122BEBB9300103E60 /* FetchedResultsController.swift */,
+				2E77A3F322BEBE8900103E60 /* FetchRequest.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		2E77A3EE22BEB85E00103E60 /* Standard Library */ = {
+			isa = PBXGroup;
+			children = (
+				2E77A3EB22BEB52500103E60 /* FatalError.swift */,
+			);
+			path = "Standard Library";
+			sourceTree = "<group>";
+		};
+		2E77A3F622BED14600103E60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E77A3F722BED14600103E60 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2E9A067722BEA1E0001FF65A = {
 			isa = PBXGroup;
 			children = (
 				2E9A068222BEA1E0001FF65A /* SwiftUI Notes */,
 				2E9A068122BEA1E0001FF65A /* Products */,
+				2E77A3F622BED14600103E60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +108,16 @@
 		2E9A068222BEA1E0001FF65A /* SwiftUI Notes */ = {
 			isa = PBXGroup;
 			children = (
+				2E77A3F522BED0EB00103E60 /* SwiftUI Notes.entitlements */,
 				2E9A068322BEA1E0001FF65A /* AppDelegate.swift */,
 				2E9A068522BEA1E0001FF65A /* SceneDelegate.swift */,
-				2E9A068A22BEA1E0001FF65A /* ContentView.swift */,
+				2E9A068A22BEA1E0001FF65A /* NoteList.swift */,
+				2EF072EA22BEDA7500C13DDD /* ComposeNoteView.swift */,
 				2E9A068C22BEA1E2001FF65A /* Assets.xcassets */,
 				2E9A069122BEA1E2001FF65A /* LaunchScreen.storyboard */,
 				2E9A069422BEA1E2001FF65A /* Info.plist */,
 				2E9A068722BEA1E0001FF65A /* SwiftUI_Notes.xcdatamodeld */,
+				2E77A3EA22BEB51300103E60 /* Extensions */,
 				2E9A068E22BEA1E2001FF65A /* Preview Content */,
 			);
 			path = "SwiftUI Notes";
@@ -149,10 +202,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E77A3F422BEBE8900103E60 /* FetchRequest.swift in Sources */,
+				2EF072EB22BEDA7500C13DDD /* ComposeNoteView.swift in Sources */,
+				2E77A3F222BEBB9300103E60 /* FetchedResultsController.swift in Sources */,
 				2E9A068922BEA1E0001FF65A /* SwiftUI_Notes.xcdatamodeld in Sources */,
+				2E77A3EC22BEB52500103E60 /* FatalError.swift in Sources */,
 				2E9A068422BEA1E0001FF65A /* AppDelegate.swift in Sources */,
-				2E9A068B22BEA1E0001FF65A /* ContentView.swift in Sources */,
+				2E9A068B22BEA1E0001FF65A /* NoteList.swift in Sources */,
 				2E9A068622BEA1E0001FF65A /* SceneDelegate.swift in Sources */,
+				2E77A3F022BEB86D00103E60 /* NoteExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +346,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI Notes/SwiftUI Notes.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Notes\"/Preview\\ Content";
 				DEVELOPMENT_TEAM = FZ89A5SZ7C;
 				ENABLE_PREVIEWS = YES;
@@ -299,6 +359,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tech.calstephens.SwiftUI-Notes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,7 +369,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI Notes/SwiftUI Notes.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Notes\"/Preview\\ Content";
 				DEVELOPMENT_TEAM = FZ89A5SZ7C;
 				ENABLE_PREVIEWS = YES;
@@ -319,6 +382,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tech.calstephens.SwiftUI-Notes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

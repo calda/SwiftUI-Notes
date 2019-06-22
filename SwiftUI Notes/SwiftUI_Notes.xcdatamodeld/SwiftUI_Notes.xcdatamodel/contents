@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="true" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14838.19" systemVersion="19A487l" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Note" representedClassName="Note" syncable="YES" codeGenerationType="class">
+        <attribute name="body" attributeType="String" defaultValueString=" " spotlightIndexingEnabled="YES"/>
+        <attribute name="lastModificationDate" optional="YES" attributeType="Date" defaultDateTimeInterval="582930840" usesScalarValueType="NO" spotlightIndexingEnabled="YES"/>
+        <attribute name="title" attributeType="String" minValueString="1" defaultValueString="New Note" spotlightIndexingEnabled="YES"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tag" inverseName="notes" inverseEntity="Tag" spotlightIndexingEnabled="YES"/>
+    </entity>
+    <entity name="Tag" representedClassName="Tag" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" minValueString="1" defaultValueString="New Tag"/>
+        <relationship name="notes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Note" inverseName="tags" inverseEntity="Note"/>
+    </entity>
+    <elements>
+        <element name="Note" positionX="-309.6875" positionY="-27.1484375" width="122.1015625" height="103"/>
+        <element name="Tag" positionX="-54" positionY="18" width="128" height="73"/>
+    </elements>
 </model>
