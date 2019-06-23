@@ -357,7 +357,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "tech.calstephens.SwiftUI-Notes";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.calstephens.SwiftUI-Notes-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
@@ -380,7 +380,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "tech.calstephens.SwiftUI-Notes";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.calstephens.SwiftUI-Notes-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;

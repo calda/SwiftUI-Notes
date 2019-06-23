@@ -15,7 +15,7 @@ struct ComposeNoteView : View {
     
     @Environment(\.isPresented) var isPresented: Binding<Bool>?
     
-    @State private var title = "New Note"
+    @State private var title = ""
     @State private var noteBody = ""
     
     var body: some View {
@@ -28,7 +28,8 @@ struct ComposeNoteView : View {
                 
                 TextField(Binding<String>(
                     getValue: { self.title },
-                    setValue: { self.title = $0 }))
+                    setValue: { self.title = $0 }),
+                    placeholder: Text("Note Title"))
                     .font(.body)
             }
             
@@ -40,20 +41,24 @@ struct ComposeNoteView : View {
                 
                 TextField(Binding<String>(
                     getValue: { self.noteBody },
-                    setValue: { self.noteBody = $0 }))
-                    .frame(minHeight: 200)
+                    setValue: { self.noteBody = $0 }),
+                    placeholder: Text("..."))
+                    .frame(minHeight: 100)
+                    .lineLimit(0)
             }
             
         }.navigationBarTitle(Text("Compose Note"))
          .navigationBarItems(trailing:
             Button(
                 action: doneButtonPressed,
-                label: { Text("Done")}))
+                label: { Text("Save")})
+                .disabled(title.isEmpty || noteBody.isEmpty))
     
     }
     
     func doneButtonPressed() {
-        let note = Note(title: title, body: noteBody)
+        _ = Note(title: title, body: noteBody)
+        AppDelegate.shared.saveContext()
         
         isPresented?.value = false
     }

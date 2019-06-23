@@ -16,7 +16,7 @@ struct NoteList: View {
     
     @ObjectBinding var resultsController = FetchedResultsController(
         with: FetchRequest(for: Note.self)
-            .sorted(by: \.lastModificationDate))
+            .sorted(by: \.lastModificationDate, ascending: false))
     
     var body: some View {
         NavigationView {

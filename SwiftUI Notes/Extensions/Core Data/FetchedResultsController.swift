@@ -36,6 +36,8 @@ class FetchedResultsController<ResultType>
         fetchedResultsControllerDelegateAdaptor.onContentChange = {
             self.didChange.send()
         }
+        
+        try! nsFetchedResultsController.performFetch()
     }
     
     var objects: [ResultType] {
